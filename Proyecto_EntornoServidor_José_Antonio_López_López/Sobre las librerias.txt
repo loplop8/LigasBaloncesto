@@ -1,0 +1,13 @@
+Aparte de las librerias propias que se usan para el desarrollo de la aplicación como JSTL, EclipseLink, el conector
+
+de la base datos entre otras, se utilizan tambien las siguientes. 
+
+jackson-core-2.14.2.jar
+
+jackson-databind-2.14.2.jar
+
+jackson-annotations-2.14.2.jar
+
+Estas librerias se usan para usar el objeto ObjectMapper que puede convertir un objeto en un string en formato JSON, la he utilizado para
+
+suprimir el error que salia de glassfish.

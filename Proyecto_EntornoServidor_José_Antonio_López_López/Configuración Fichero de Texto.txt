@@ -1,0 +1,13 @@
+El fichero de texto que el arbitro debe de pasar tiene que cumplur los siguientes requisitos:
+
+Las llaves indican los valores, no hay que incluirlas en el fichero.
+
+En la primera linea del Fichero se debe poner:Jornada {nºJornada}
+
+En las siguientes lineas se debe de poner:NombreEquipoLocal :{puntosLocal} - NombreEquipoVisitante :{puntosVisitante} 
+
+Ademas, los partidos deben de estar colocados en el mismo orden que se muestra en la tabla de Ver Partidos para poder cargar los datos.
+
+Si hay algun error la aplicación web mostrara un mensaje de error especificando que es lo que falla en el fichero de texto.
+
+Ademas decir que esto sobreescribira cualquier puntuacion guardada anteriormente de los partidos si ya habia algun resutado puesto.
